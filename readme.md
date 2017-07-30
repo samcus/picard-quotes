@@ -15,13 +15,13 @@ $npm run example
 $npm install -S picard-quotes
 ```
 
-## Sandbox (via Docker)
+## Installation (via Docker)
 ```bash
 $docker pull samcus/picard-quotes 
 $docker images
-# Find the samcus/picard-quotes IMAGE ID <IMAGE ID>
-$docker run -i -t <IMAGE ID> bash
-$npm run example
+$docker run -i -t samcus/picard-quotes:latest picard-quotes
+# Optionally Play with Build
+$docker run -i -t samcus/picard-quotes:latest bash
 ```
 
 ## Usage
