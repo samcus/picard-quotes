@@ -1,0 +1,48 @@
+{
+  "name": "picard-quotes",
+  "version": "0.0.2",
+  "description": "Quotes from the Legendary Jean-Luc Picard",
+  "main": "lib/index.js",
+  "bin": {
+    "picard-quotes": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "node test",
+    "coverage": "node_modules/.bin/istanbul cover test",
+    "coverage-report": "npm run coverage && node test/coverage-report",
+    "example": "node example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samcus/picard-quotes.git"
+  },
+  "keywords": [
+    "star",
+    "trek",
+    "jean-luc",
+    "picard",
+    "picard",
+    "tng",
+    "node",
+    "quotes",
+    "docker"
+  ],
+  "author": "Samuel Anthony Custer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samcus/picard-quotes/issues"
+  },
+  "homepage": "https://github.com/samcus/picard-quotes#readme",
+  "dependencies": {
+    "colog": "^1.0.4",
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "opn": "^5.1.0",
+    "opn-cli": "^3.1.0",
+    "tape": "^4.7.0"
+  }
+}

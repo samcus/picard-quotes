@@ -59,3 +59,7 @@ typings/
 
 #todo list
 todo.md
+
+# Docker files
+*Dockerfile*
+*docker-compose*
