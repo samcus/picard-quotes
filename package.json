@@ -1,6 +1,6 @@
 {
   "name": "picard-quotes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Quotes from the Legendary Jean-Luc Picard",
   "main": "lib/index.js",
   "bin": {
