@@ -43,6 +43,7 @@ picard.quote({number: 1}, (quote) => {
 
 ## CLI Usage
 ```bash
+$npm i -g picard-quotes
 $picard-quotes
 
 # "The line must be drawn here! This far, no farther!" - Jean-Luc Picard
